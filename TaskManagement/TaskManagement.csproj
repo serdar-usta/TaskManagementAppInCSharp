@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{923ECC85-E6F5-4C5E-906D-5DD32AC344E4}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TaskManagement</RootNamespace>
+    <AssemblyName>TaskManagement</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CRUD Forms\CustomerCrud.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CRUD Forms\CustomerCrud.Designer.cs">
+      <DependentUpon>CustomerCrud.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CRUD Forms\CustomerListing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CRUD Forms\CustomerListing.Designer.cs">
+      <DependentUpon>CustomerListing.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CRUD Forms\EmployeeCrud.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CRUD Forms\EmployeeCrud.Designer.cs">
+      <DependentUpon>EmployeeCrud.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CRUD Forms\EmployeeListing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CRUD Forms\EmployeeListing.Designer.cs">
+      <DependentUpon>EmployeeListing.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CRUD Forms\ProjectCrud.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CRUD Forms\ProjectCrud.Designer.cs">
+      <DependentUpon>ProjectCrud.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CRUD Forms\ProjectListing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CRUD Forms\ProjectListing.Designer.cs">
+      <DependentUpon>ProjectListing.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CRUD Forms\RequestCrud.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CRUD Forms\RequestCrud.Designer.cs">
+      <DependentUpon>RequestCrud.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CRUD Forms\RequestListing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CRUD Forms\RequestListing.Designer.cs">
+      <DependentUpon>RequestListing.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CRUD Forms\TaskCrud.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CRUD Forms\TaskCrud.Designer.cs">
+      <DependentUpon>TaskCrud.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CRUD Forms\TaskListing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CRUD Forms\TaskListing.Designer.cs">
+      <DependentUpon>TaskListing.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Entities\Customer.cs" />
+    <Compile Include="Entities\Employee.cs" />
+    <Compile Include="Entities\Project.cs" />
+    <Compile Include="Entities\Request.cs" />
+    <Compile Include="Entities\RequestType.cs" />
+    <Compile Include="Entities\Task.cs" />
+    <Compile Include="Entities\Title.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Helper.cs" />
+    <Compile Include="LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201604161149546_FirstMigration.cs" />
+    <Compile Include="Migrations\201604161149546_FirstMigration.Designer.cs">
+      <DependentUpon>201604161149546_FirstMigration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TaskManContext.cs" />
+    <EmbeddedResource Include="CRUD Forms\CustomerCrud.resx">
+      <DependentUpon>CustomerCrud.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CRUD Forms\CustomerListing.resx">
+      <DependentUpon>CustomerListing.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CRUD Forms\EmployeeCrud.resx">
+      <DependentUpon>EmployeeCrud.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CRUD Forms\EmployeeListing.resx">
+      <DependentUpon>EmployeeListing.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CRUD Forms\ProjectCrud.resx">
+      <DependentUpon>ProjectCrud.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CRUD Forms\ProjectListing.resx">
+      <DependentUpon>ProjectListing.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CRUD Forms\RequestCrud.resx">
+      <DependentUpon>RequestCrud.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CRUD Forms\RequestListing.resx">
+      <DependentUpon>RequestListing.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CRUD Forms\TaskCrud.resx">
+      <DependentUpon>TaskCrud.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CRUD Forms\TaskListing.resx">
+      <DependentUpon>TaskListing.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201604161149546_FirstMigration.resx">
+      <DependentUpon>201604161149546_FirstMigration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1460827965_eye.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

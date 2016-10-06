@@ -1,0 +1,39 @@
+c:\users\ogrenci\documents\visual studio 2013\Projects\Lecture 160415\TaskManagement\bin\Debug\TaskManagement.exe.config
+c:\users\ogrenci\documents\visual studio 2013\Projects\Lecture 160415\TaskManagement\obj\Debug\TaskManagement.csprojResolveAssemblyReference.cache
+c:\users\ogrenci\documents\visual studio 2013\Projects\Lecture 160415\TaskManagement\obj\Debug\TaskManagement.Form1.resources
+c:\users\ogrenci\documents\visual studio 2013\Projects\Lecture 160415\TaskManagement\obj\Debug\TaskManagement.Properties.Resources.resources
+c:\users\ogrenci\documents\visual studio 2013\Projects\Lecture 160415\TaskManagement\obj\Debug\TaskManagement.csproj.GenerateResource.Cache
+c:\users\ogrenci\documents\visual studio 2013\Projects\Lecture 160415\TaskManagement\bin\Debug\TaskManagement.exe
+c:\users\ogrenci\documents\visual studio 2013\Projects\Lecture 160415\TaskManagement\bin\Debug\TaskManagement.pdb
+c:\users\ogrenci\documents\visual studio 2013\Projects\Lecture 160415\TaskManagement\bin\Debug\EntityFramework.dll
+c:\users\ogrenci\documents\visual studio 2013\Projects\Lecture 160415\TaskManagement\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\ogrenci\documents\visual studio 2013\Projects\Lecture 160415\TaskManagement\bin\Debug\EntityFramework.xml
+c:\users\ogrenci\documents\visual studio 2013\Projects\Lecture 160415\TaskManagement\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\ogrenci\documents\visual studio 2013\Projects\Lecture 160415\TaskManagement\obj\Debug\TaskManagement.exe
+c:\users\ogrenci\documents\visual studio 2013\Projects\Lecture 160415\TaskManagement\obj\Debug\TaskManagement.pdb
+c:\users\ogrenci\documents\visual studio 2013\Projects\Lecture 160415\TaskManagement\obj\Debug\TaskManagement.LoginForm.resources
+C:\Users\Serdar\Desktop\BilgeAdam\11.Hafta\Lecture 160415\TaskManagement\bin\Debug\TaskManagement.exe.config
+C:\Users\Serdar\Desktop\BilgeAdam\11.Hafta\Lecture 160415\TaskManagement\obj\Debug\TaskManagement.exe
+C:\Users\Serdar\Desktop\BilgeAdam\11.Hafta\Lecture 160415\TaskManagement\obj\Debug\TaskManagement.pdb
+C:\Users\Serdar\Desktop\BilgeAdam\11.Hafta\Lecture 160415\TaskManagement\bin\Debug\TaskManagement.exe
+C:\Users\Serdar\Desktop\BilgeAdam\11.Hafta\Lecture 160415\TaskManagement\bin\Debug\TaskManagement.pdb
+C:\Users\Serdar\Desktop\BilgeAdam\11.Hafta\Lecture 160415\TaskManagement\bin\Debug\EntityFramework.dll
+C:\Users\Serdar\Desktop\BilgeAdam\11.Hafta\Lecture 160415\TaskManagement\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Serdar\Desktop\BilgeAdam\11.Hafta\Lecture 160415\TaskManagement\bin\Debug\EntityFramework.xml
+C:\Users\Serdar\Desktop\BilgeAdam\11.Hafta\Lecture 160415\TaskManagement\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Serdar\Desktop\BilgeAdam\11.Hafta\Lecture 160415\TaskManagement\obj\Debug\TaskManagement.csprojResolveAssemblyReference.cache
+C:\Users\Serdar\Desktop\BilgeAdam\11.Hafta\Lecture 160415\TaskManagement\obj\Debug\TaskManagement.Form1.resources
+C:\Users\Serdar\Desktop\BilgeAdam\11.Hafta\Lecture 160415\TaskManagement\obj\Debug\TaskManagement.LoginForm.resources
+C:\Users\Serdar\Desktop\BilgeAdam\11.Hafta\Lecture 160415\TaskManagement\obj\Debug\TaskManagement.Properties.Resources.resources
+C:\Users\Serdar\Desktop\BilgeAdam\11.Hafta\Lecture 160415\TaskManagement\obj\Debug\TaskManagement.csproj.GenerateResource.Cache
+C:\Users\Serdar\Desktop\BilgeAdam\11.Hafta\Lecture 160415\TaskManagement\obj\Debug\TaskManagement.Migrations.FirstMigration.resources
+C:\Users\Serdar\Desktop\BilgeAdam\11.Hafta\Lecture 160415\TaskManagement\obj\Debug\TaskManagement.CRUD_Forms.EmployeeCrud.resources
+C:\Users\Serdar\Desktop\BilgeAdam\11.Hafta\Lecture 160415\TaskManagement\obj\Debug\TaskManagement.CRUD_Forms.EmployeeListing.resources
+C:\Users\Serdar\Desktop\BilgeAdam\11.Hafta\Lecture 160415\TaskManagement\obj\Debug\TaskManagement.CRUD_Forms.CustomerListing.resources
+C:\Users\Serdar\Desktop\BilgeAdam\11.Hafta\Lecture 160415\TaskManagement\obj\Debug\TaskManagement.CRUD_Forms.CustomerCrud.resources
+C:\Users\Serdar\Desktop\BilgeAdam\11.Hafta\Lecture 160415\TaskManagement\obj\Debug\TaskManagement.CRUD_Forms.ProjectCrud.resources
+C:\Users\Serdar\Desktop\BilgeAdam\11.Hafta\Lecture 160415\TaskManagement\obj\Debug\TaskManagement.CRUD_Forms.ProjectListing.resources
+C:\Users\Serdar\Desktop\BilgeAdam\11.Hafta\Lecture 160415\TaskManagement\obj\Debug\TaskManagement.CRUD_Forms.RequestCrud.resources
+C:\Users\Serdar\Desktop\BilgeAdam\11.Hafta\Lecture 160415\TaskManagement\obj\Debug\TaskManagement.CRUD_Forms.RequestListing.resources
+C:\Users\Serdar\Desktop\BilgeAdam\11.Hafta\Lecture 160415\TaskManagement\obj\Debug\TaskManagement.CRUD_Forms.TaskCrud.resources
+C:\Users\Serdar\Desktop\BilgeAdam\11.Hafta\Lecture 160415\TaskManagement\obj\Debug\TaskManagement.CRUD_Forms.TaskListing.resources
